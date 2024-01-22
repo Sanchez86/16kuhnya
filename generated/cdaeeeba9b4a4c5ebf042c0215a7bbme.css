@@ -1,0 +1,541 @@
+@media only screen and (max-width: 1730px){
+    .one .container, .two .container, .three .container, .four .container, .five .container, .six .container, .seven .container {
+        max-width: 1150px;
+    }
+    .fixMenu{
+        left: -65px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    
+}
+@media only screen and (max-width: 1200px){
+    .fixMenu {
+        left: 15px;
+        width: 33px;
+        opacity: 0.7;
+    }
+    .menuLogo{
+        display: none;
+    }
+    .menuIcon5 {
+        margin-bottom: 22px;
+    }
+    .bott_addresIcon{
+        margin-left: 2vw;
+    }
+    .bott_phoneIcon{
+        margin-left: 2vw;
+        margin-right: 1vw;
+    }
+    header {
+        padding-top: 56.4vh;
+        padding-bottom: 17vh;
+    }
+}
+
+@media only screen and (max-width: 1170px){
+    .block{
+        width: 19.1vw;
+    }
+    .fourBlock .fourBlocks{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .fourBlock h4{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .bott_addresIcon{
+        margin-left: 0vw;
+    }
+    .bott_phoneIcon{
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    .blockSeven{
+        padding-left:2vw;
+        padding-right:1vw;
+    }
+}
+@media only screen and (max-width: 1050px){
+    .block {
+        width: 19vw;
+        height: 660px;
+    }
+    .block a{
+        left: 9%;
+    }
+    .three .search{
+        max-width: 300px;
+    }
+    .fourBlock h4{
+        font-size: 23px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1024px){
+    .block {
+        width: 198px;
+    }
+}
+
+
+@media only screen and (max-width: 992px){
+    .block p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .block a{
+        width: 120px;
+        font-size: 13px;
+        padding-top: 13px;
+        left: 17%;
+    }
+    .block {
+        width: 18.9vw;
+    }
+    .fourBlock h3{
+        font-size: 38px;
+    }
+    .fourBlock h4{
+        font-size: 18px;
+    }
+    .year37{
+        margin-top: -73px;
+    }
+    
+    .leftBlock > .year46ImagesBottom {
+        margin-top: 100px;
+    }
+    .leftBlock .year46ImagesBottom .year46content {
+        margin-top:0;
+    }
+}
+@media only screen and (max-width: 960px){
+    .blockSeven span{
+        display:none;
+    }
+    .bott_caretUp{
+        display:none;
+      
+    }
+    .linkGroupMobile {
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+        padding-bottom:30px;
+    }
+    .linkGroupMobile a{
+        color: #fff;
+        font-family: 'Baufra W01 Bold';
+        font-size: 10px;
+        background-image: url('../images/arrowRightMob.jpg');
+        background-repeat:no-repeat;
+        background-position:right;
+        padding-right: 14px;
+        
+    }
+    .linkGroupMobile a:last-child{
+        margin-left: 35px;
+    }
+    .linkGroupMobile a:first-child{
+        margin-left: -11px;
+    }
+    .contactGroupMobile .blockSeven {
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .blockSevenMobile span{
+        display:block;
+        font-weight:bold;
+        margin-bottom: 7px;
+    }
+    .blockSevenMobile{
+        padding-top: 18px;
+        float:none;
+        text-align:center;
+        margin-bottom: 9px;
+    }
+    .bott_phoneIcon,
+    .bott_mileIcon,
+    .bott_addresIcon{
+        display: inline;
+        float: none;
+    }
+    .bott_mileIcon{
+        margin-left:57px;
+        margin-right:57px;
+    }
+    .contactGroupMobile{
+        text-align:center;
+    }
+}
+@media only screen and (max-width: 950px){
+     
+    .one h2{
+        font-size: 23px;
+    }
+    .fourBlock h2 {
+        font-size: 25px;
+    }
+    .fourBlock h3{
+        font-size: 30px;
+    }
+    .fourBlock h4{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 857px){
+   
+    .block a {
+        width: 105px;
+        font-size: 12.5px;
+    }
+    .block {
+        width: 18.7vw;
+    }
+}
+@media (min-width: 768px) and (max-width: 768px){
+    .block {
+        width: 147px;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .fixMenu {
+        left: 0px;
+    }
+    .partnerLeft{
+        float:none;
+        width:100%;
+        max-width:100%;
+    }
+    .partnerRight{
+        background-position: 0!important;
+    }
+    .block a{
+        text-shadow: 0px 0px 5px rgb(0, 0, 0);
+        width:auto;
+        color:#fff;
+        background-color:inherit;
+        left: 14%;
+    }
+    .block a:hover{
+        background-color:inherit;
+    }
+    .one .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .block {
+        width: 19.3vw;
+    }
+    .film_roll_child{
+        width:90%;
+    }
+    .sl1{
+        width:98%;
+    }
+    .fourBlock h4{
+        font-size: 16px;
+    }
+    .blokcsYear46 p{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .one h2 {
+        font-size: 19px;
+    }
+    .block p {
+        font-size: 10px;
+        line-height: 20px;
+        
+    }
+}
+@media only screen and (max-width: 500px){
+    
+    .twoBlock h3,
+    .partnerLeft h2{
+        display:none;
+    }
+    .five h2{
+        font-size:30px;
+    }
+    .one{
+        display:none;
+    }
+    .oneMobile{
+        display:block;
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .oneMobile>div{
+        margin-top: -3px;
+    }
+    .oneMobile img{
+        width:100%;
+    }
+    .fourBlock h4{
+        font-size: 15px;
+    }
+    .border{
+        float:left;
+    }
+    .leftBlock,
+    .rightBlock{
+        width:100%;
+        float:none;
+    }
+    .blokcsYear46 p{
+        font-size: 12px;
+    }
+    .year46 {
+        background-image: url('../images/year46min.jpg');
+        width:91px;
+        height:55px;
+        float:left;
+    }
+    .section{
+        border-left: 2px solid #4c4b40;
+    }
+    .rightBlock{
+        border:0;
+        padding-top: 56px;
+    }
+    .subBborder{
+        float:none!important;
+    }
+    .year46content{
+        float:right;
+        text-align:left;
+        margin-bottom: 20px;
+    }
+    .year46content p{
+        text-align:left;
+    }
+    .year46content span{
+        float:left;
+    }
+    .year46img{
+        max-width: 55%;
+    }
+    .year46contentResp{
+        float:left!important;
+        text-align:left!important;
+        margin-top:10px;
+    }
+    .year46contentResp p,
+    .year46contentResp h3{
+        text-align:left!important;
+    }
+    .year46contentResp span{
+        float:left!important;
+    }
+    .year46ImagesBottom{
+        padding-left:0;
+    }
+    .leftBlock > .year46ImagesBottom {
+        padding-top: 100px;
+        margin-top: 0;
+        padding-left: 20px;
+        padding-right: 27px;
+    }
+    .leftBlock {
+        padding-right: 0px;
+    }
+    .leftBlock .year46ImagesBottom .year46content{
+        margin-left: 12px;
+        margin-top:-10px;
+    }
+    .year46ImagesBottom .year46{
+         display:none;
+    }
+    .year37 img{
+        display:none;
+    }
+    .img6{
+        margin-top:0;
+    }
+    .bottomLine {
+        margin-left: -19px;
+        margin-top: -72px;
+    }
+    .year3{
+        display:none;
+    }
+    .year46ImagesBottomRes {
+        background-image: url('../images/year46min.jpg');
+        width: 91px;
+        height: 55px;
+        margin-left: -19px;
+        margin-bottom: 20px;
+    }
+    .year37Res {
+        background-image: url('../images/year37.jpg');
+        background-size:contain;
+        background-repeat:no-repeat;
+        width: 94px;
+        height:76px;
+        margin-left: -20px;
+
+    }
+    .blokcsYear46 {
+        padding-bottom: 5px;
+    }
+
+    h1{
+        font-size: 34px;
+    }
+    .year46Images img{
+        width:40%;
+    }
+    .year46contentImg img{
+        max-width:180px;
+        width:100%;
+    }
+    .twoBlock h2{
+        color:#4c4b40;
+        text-align:center;
+    }
+    .twoBlock .whiteLine{
+        width:40px;
+        height:3px;
+        background-color:#4c4b40;
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+    .twoBlock{
+        background-image:none;
+        background-color:#fff;
+        padding-top: 28px;
+        padding-bottom: 0;
+        text-align:center;
+    }
+    .two{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .two .twoBlockPMob{
+        display:block;
+        color:#4c4b40;
+        font-size: 14px;
+        text-align:center;
+         margin-top: 18px;
+         font-family: 'Kyrial Display W01 Light';
+    }
+    .two .twoBlockPMob p{
+        max-width: 100%;
+    }
+    .twoBlockPRes{
+        display:none;
+    }
+    .twoBlockPMob img{
+        width:100%;
+        margin-top: 28px;
+    }
+
+    .twoBlock a{
+        margin:0 auto;
+        margin-top: 18px;
+        margin-bottom: 30px;
+        background: #6b1d30;
+        background: -moz-linear-gradient(left, #6b1d30 0%, #932841 100%);
+        background: -webkit-linear-gradient(left, #6b1d30 0%,#932841 100%);
+        background: linear-gradient(to right, #6b1d30 0%,#932841 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b1d30', endColorstr='#932841',GradientType=1 );
+    }
+    .partnerLeftRes{
+        display:none;
+    }
+    .partnerLeftMob{
+        display:block;
+        display:block;
+        color:#fff;
+        font-size: 14px;
+        text-align:center;
+         margin-top: 0;
+         font-family: 'Kyrial Display W01 Light';
+    }
+   .partnerLeft{
+        padding:0;
+        text-align:center;
+        padding-top: 1px;
+    }
+    .partnerLeft h3{
+        font-size: 25px;
+        text-align: center;
+            margin-bottom: 5px;
+    }
+    .partnerLeftMob .whiteLine {
+        width: 40px;
+        margin: 0 auto;
+        height: 3px;
+        margin-bottom:17px;
+    }
+    .partnerLeft a{
+        padding-left: 55px;
+        padding-right: 55px;
+        margin-top: 19px;
+        margin-bottom: 30px;
+    }
+    .partnerRight{
+        display:none;
+    }
+    .three .searchMob{
+        display:block;
+        border:1px solid #fff;
+    }
+    .three .search {
+        max-width: 280px;
+        margin-top:28px;
+    }
+   .fourBlock h3{
+       display:none;
+   }
+   .fourBlock .whiteLine{
+       width:40px;
+       height:3px;
+       margin-bottom:17px;
+   }
+   .fourBlock h2{
+       margin-bottom: 11px;
+   }
+   .four .partnerLeftMob{
+       margin-bottom:30px;
+   }
+   .fourBlock .fourBlocks {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+   .fourBlock h4{
+       font-family: 'Kyrial Display W01 Light';
+       font-size: 12px;
+   }
+}
+@media only screen and (max-width: 480px){
+    .row > .col-xs-4{
+        max-width: 33.33333%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 320px){
+    .twoBlock{
+        padding-left:0;
+    }
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .oneMobile{
+        padding-left:0px;
+        padding-right:0px;
+    }
+        .year46contentImg img {
+        max-width: 128px;
+    }
+    h1 {
+        font-size: 29px;
+    }
+}

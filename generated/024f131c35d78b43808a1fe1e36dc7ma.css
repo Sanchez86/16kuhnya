@@ -1,0 +1,901 @@
+/*—список подключеных шрифтов*/
+
+@font-face {
+    font-family: 'Baufra W01 Bold';
+    src: url('../fonts/Baufra W01 Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Kyrial Display W01 Bold';
+    src: url('../fonts/Kyrial Display W01 Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Kyrial Display W01 Light';
+    src: url('../fonts/Kyrial Display W01 Light.ttf') format('truetype');
+}
+.oneMobile{
+    display:none;
+}
+body{ 
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color:#EFF0F3;
+}
+
+#history{
+    background-color:#bfbeb6;
+    position:relative;
+}
+
+/*стили стандартынх тегов*/
+h1{
+  
+    color:#fff;
+    font-size:41px;
+    text-align:center;
+    text-transform:uppercase;
+    font-family: 'Baufra W01 Bold';
+}
+h2{
+   
+    color:#fff;
+    font-size:24px;
+    text-align:center;
+    text-transform:uppercase;
+    font-family: 'Baufra W01 Bold';
+}
+h3,strong{
+   
+    color:#4c4b40;
+    font-size:15px;
+    font-family: 'Kyrial Display W01 Bold';
+    margin-bottom: 2px;
+}
+h4{
+   /*
+    color:#;
+    font-size:px;
+    font-family:;
+	line-height:px;
+    letter-spacing:px;*/
+}
+p{
+    color: #6f6e65;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Kyrial Display W01 Light';
+} 
+a{
+	/*
+    color:#;
+    font-size:px;
+    font-family:;
+	line-height:px;
+    letter-spacing:px;*/
+}
+a:hover{text-decoration:none;}
+
+.clear{clear:both;}/*очищающий блок*/
+
+.outline{outline:1px solid #cc0000;} /*тестовая рамка красного цвета*/
+
+.wrap{
+    background-color:#EFF0F3;
+}
+
+#navbar{
+	height:auto;
+	transition: background-color 1s; /*добавляет прозрачности*/
+}
+
+/*не выдел¤етс¤ текст*/
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently*/
+}
+
+
+/*  кнопка "на верх" */
+
+  #top {
+    z-index:100;
+    bottom: 0;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 25px; /*отступ от правого кра¤*/
+    width:48px; /*ширина*/
+    height:33px;/*высота*/
+    background-color:rgba(0, 0, 0, 0.69);
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+	text-align:center;
+	transition: height 1s;
+}
+#top div{
+	margin-top:54x;
+}
+#top .up{
+    padding-top: 10px;
+    display: block;
+    font-family: Arial;
+    font-size: 15px;
+    color: #FFF;
+}
+#top i {
+		margin-top:10px;
+        color:#fff;
+        font-size:12px;
+}
+
+#top:hover{
+	color:#fff;
+	background-color:#000;
+	transition: height 1s;
+}
+#top:hover .minus1{
+	border-bottom:1px solid #fff;
+	transition: border-color 2s
+}
+#top:hover .minus2{
+	border-bottom:1px solid #fff;
+	transition: border-color 3s
+}
+#top:hover .minus3{
+	border-bottom:1px solid #fff;
+	transition: border-color 4s
+}
+.minus{
+	display: block;
+	color: #FFF;
+	padding:0!important;
+	height: 2px;
+	margin:0!important;
+	border-bottom:1px solid #000;
+	transition: border-color 1s
+}
+/* конец  нопка "на верх" */
+.header {
+    background-size: cover;
+    background-image: url(../images/topImg.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top:51vh;
+    padding-bottom:69vh;
+}
+.header span{
+    display:block;
+    width:60px;
+    height:4px;
+    background-color:#fff;
+    margin:0 auto;
+    margin-top:17px;
+    margin-bottom: 20px;
+}
+
+
+.leftBlock,
+.rightBlock{
+    width:50%;
+    float:left;
+}
+.leftBlock{
+    padding-right:19px;
+}
+.rightBlock{
+    padding-left:19px;
+    padding-top:106px;
+    border-left: 2px solid #4c4b40;
+}
+.year46 {
+    float: right;
+    background-image: url('../images/year46.jpg');
+    width:130px;
+    height:76px;
+    margin-right:-19px;
+    margin-top: 10px;
+}
+.year46content>span{
+    display:block;
+    width:60px;
+    height:4px;
+    background-color:#4c4b40;
+    float:right;
+    margin-top: 21px;
+    margin-bottom: 17px;
+}
+.year46content,
+.year46img{
+    float:left;
+}
+.year46content{
+    text-align:right;
+    max-width:126px;
+}
+.year46img{
+    max-width:356px;
+    margin-top: 18px;
+    margin-left: 14px;
+}
+.year46content p{
+    text-align:right;
+}
+.wrap .container{
+    max-width: 1070px;
+}
+
+
+.year46Images{
+    margin-left: 7px;
+    float:left;
+}
+
+.year46Images img:first-child{
+    margin-right: 17px;
+}
+
+.rightBlock .year46content>span{
+    margin-top:0;
+    float:left;
+}
+.rightBlock .year46content p{
+    text-align:left;
+}
+
+
+.rightBlock .year46content{
+    padding-left: 13px;
+    text-align:left;
+    margin-right: 16px;
+}
+
+.year46img > .year46content{
+    margin-top: 6px;
+    width: 100%;
+    max-width: 100%;
+}
+.year46img > .year46content p{
+    text-align: left;
+}
+.year46img > .year46content span{
+    float:left;
+}
+
+.year46ImagesBottom{
+    margin-top: 32px;
+    padding-left: 72px;
+}
+.year46ImagesBottom > .year46content span{
+    float:right;
+}
+.year46ImagesBottom > .year46content h3,
+.year46ImagesBottom > .year46content p{
+    text-align:right;
+}
+
+.leftBlock > .year46ImagesBottom{
+     margin-top:4px;
+}
+.leftBlock .year46ImagesBottom .year46content,
+.leftBlock .year46ImagesBottom .year46contentImg{
+    float:right;
+}
+
+.leftBlock .year46ImagesBottom .year46contentImg{
+    max-width:256px;
+    margin-left: 20px;
+}
+.leftBlock .year46ImagesBottom .year46content{
+    margin-top:198px;
+}
+
+.year37{
+    margin-left: -19px;
+    margin-top: -174px;
+}
+.year37 p{
+    max-width: 315px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.year46ImagesBottom .year46{
+    margin-top: 30px;
+}
+.img6{
+    margin-top: 70px;
+}
+.img6 .year46content{
+    padding-left: 4px;
+    margin-top: 25px;
+    max-width:260px;
+    margin-bottom: 30px;
+}
+.img6 span{
+    display:inline;
+}
+.bottomLine{
+    background-color:#4c4b40;
+    width:40px;
+    height:2px;
+    margin-left: -40px;
+}
+
+.blokcsYear46{
+
+}
+.suchen {
+    margin-top:57px;
+    margin-bottom:100px;
+    text-align:center;
+}
+.suchen input[type="text"] {
+    text-transform: uppercase;
+    border: 1px solid #4c4b40;
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url('../images/search.jpg');
+    background-repeat:no-repeat;
+    background-position: 25px center;
+}
+.suchen input[type="text"]::-webkit-input-placeholder {color:#6f6e65;}
+.suchen input[type="text"]::-moz-placeholder          {color:#6f6e65;}/* Firefox 19+ */
+.suchen input[type="text"]:-moz-placeholder           {color:#6f6e65;}/* Firefox 18- */
+.suchen input[type="text"]:-ms-input-placeholder      {color:#6f6e65;}
+
+.border {
+    background-image: url('../images/border.jpg');
+    width:2px;
+    height:36px;
+    float:right;
+    margin-right: -21px;
+    margin-top: -36px;
+}
+
+/*--------------------end-History-----------------------*/
+
+/*--------------------Index-----------------------*/
+
+/*one*/
+.one .container{
+    position:relative;
+}
+.block{
+    float:left;
+    width:224px;
+    height:761px;
+    background-repeat:no-repeat;
+    text-align:center;
+    position:relative;
+}
+.one h2{
+    margin-top: 330px;
+    transition:margin-top 1s;
+    font-family: 'Baufra W01 Bold';
+    font-size: 25px;
+    letter-spacing: 0.4px;
+    display:inline-block;
+}
+.whiteLine{
+    width:60px;
+    height:4px;
+    background-color:#fff;
+    display:block;
+    margin-top: 13px;
+    transition:all 1s;
+}
+.one .active h2{
+    margin-top: 30px;
+    text-shadow: 0px 0px 5px rgb(101, 101, 101);
+}
+.one .active .whiteLine{
+    width:100%;
+}
+.one .active p{
+    bottom: 184px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    transition:all 1s;
+}
+.block a{
+    display:block;
+    position:absolute;
+    bottom:31px;
+    width:153px;
+    height:40px;
+    background-color:#fff;
+    left:15%;
+    border-radius: 20px;
+    font-family: 'Kyrial Display W01 Light';
+    font-size: 15px;
+    padding-top: 11px;
+    transition:all 0.5s;
+    color: #000;
+}
+.block a:hover{
+    transition:all 0.5s;
+
+    background-color: #e2e2e2;
+}
+.block p{
+    position: absolute;
+    bottom: 184px;
+    color: rgba(255, 255, 255, 0);
+    font-family: 'Baufra W01 Bold';
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 29px;
+ 
+    transition:all 1s;
+}
+.b1 {
+    background-image: url('../images/1.jpg');
+}
+.b2 {
+    background-image: url('../images/2.jpg');
+}
+.b3 {
+    background-image: url('../images/3.jpg');
+}
+.b4 {
+    background-image: url('../images/4.jpg');
+}
+.b5 {
+    background-image: url('../images/5.jpg');
+}
+
+/*end one*/
+/*two*/
+.two{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.twoBlock {
+    background-image: url('../images/twoBg.jpg');
+    color:#fff;
+    padding-top: 90px;
+    padding-left: 48px;
+    padding-bottom:100px;
+}
+.twoBlock h2{
+    text-align:left;
+    font-family: 'Baufra W01 Bold';
+    font-size: 25px;
+    letter-spacing: 0.4px;
+}
+.twoBlock p{
+    color:#e4c9cf;
+    font-family: 'Kyrial Display W01 Light';
+    max-width: 260px;
+}
+.twoBlock h3{
+    color:#fff;
+    text-align:left;
+    font-family: 'Baufra W01 Bold';
+    font-size: 40px;
+    letter-spacing: 0.4px;
+    max-width: 300px;
+    line-height: 42px;
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+.twoBlock a{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    height:40px;
+    background-color:none;
+    border:1px solid #fff;
+    text-align:center;
+    left:15%;
+    border-radius: 20px;
+    font-family: 'Kyrial Display W01 Light';
+    font-size: 14px;
+    padding-top: 11px;
+    transition:all 0.5s;
+    margin-top: 25px;
+}
+.twoBlock a:hover{
+    background-color:#fff;
+    color: #000;
+}
+/*end two*/
+/*three*/
+.three{
+    margin-bottom:20px;
+}
+.partnerLeft{
+    float:left;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4b40+0,37332e+100 */
+background: #4c4b40; /* Old browsers */
+background: -moz-linear-gradient(left,  #4c4b40 0%, #37332e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #4c4b40 0%,#37332e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #4c4b40 0%,#37332e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4b40', endColorstr='#37332e',GradientType=1 ); /* IE6-9 */
+
+    padding-top: 46px;
+    padding-left: 48px;
+    padding-bottom:50px;
+    width:100%;
+    max-width:400px;
+}
+
+.partnerLeft h2{
+    text-align:left;
+    font-family: 'Baufra W01 Bold';
+    font-size: 25px;
+    letter-spacing: 0.4px;
+}
+.partnerLeft p{
+    color:#e4c9cf;
+    font-family: 'Kyrial Display W01 Light';
+    max-width: 260px;
+}
+.partnerLeft h3{
+    color:#fff;
+    text-align:left;
+    font-family: 'Baufra W01 Bold';
+    font-size: 40px;
+    letter-spacing: 0.4px;
+    max-width: 300px;
+    line-height: 42px;
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+.partnerLeft a{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    height:40px;
+    background-color:#fff;
+    text-align:center;
+    left:15%;
+    border-radius: 20px;
+    font-family: 'Kyrial Display W01 Light';
+    font-size: 14px;
+    padding-top: 11px;
+    transition:all 0.5s;
+    margin-top: 25px;
+    color:#000;
+}
+.partnerRight {
+    background-image: url('../images/threeBg.jpg');
+    background-repeat: no-repeat;
+    background-position: 400px 0px;
+    padding-top:176px;
+    padding-bottom:176px;
+}
+.three .search{
+    display:block;
+    background-color:#4a493e;
+    text-align:center;
+    border-radius:20px;
+    width:100%;
+    max-width:574px;
+    margin:0 auto;
+    height:40px;
+    color:#908f89;
+    font-size:16px;
+    text-transform:uppercase;
+    font-family: 'Kyrial Display W01 Light';
+    padding-bottom: 7px;
+}
+/*end three*/
+/*four*/
+
+.fourBlock{
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4b40+0,37332e+100 */
+background: #4c4b40; /* Old browsers */
+background: -moz-linear-gradient(left,  #4c4b40 0%, #37332e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #4c4b40 0%,#37332e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #4c4b40 0%,#37332e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4b40', endColorstr='#37332e',GradientType=1 ); /* IE6-9 */
+
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top:45px;
+    padding-bottom: 4px;
+}
+.fourBlock h2{
+    font-family: 'Baufra W01 Bold';
+    color:#fff;
+    font-size: 27px;
+    margin-bottom: 16px;
+}
+.fourBlock h3{
+    margin-top: 22px;
+    font-family: 'Baufra W01 Bold';
+    color:#fff;
+    font-size: 41px;
+    margin-bottom: 45px;
+    text-align:center;
+}
+.fourBlock h4{
+    font-family: 'Baufra W01 Bold';
+    color:#fff;
+    font-size: 27px;
+    margin-bottom: 47px;
+    display:inline-block;
+    margin-top: 21px;
+}
+.fourBlock .active .whiteLine{
+    width:100%;
+}
+.fourBlock .whiteLine{
+    float:none;
+    margin: 0 auto;
+}
+.fourBlocks .whiteLine{
+    margin: 0;
+    margin-top: 17px;
+}
+.fourBlock .fourBlocks {
+    text-align:center;
+    padding-left:0;
+    padding-right:0;
+}
+.fourBlocks img{
+    width: 100%;
+    max-width: 319px;
+}
+/*end four*/
+/*five*/
+
+.five .carousel{
+     background-color:#fff;
+     padding-bottom: 40px;
+}
+.five h2{
+    font-family: 'Baufra W01 Bold';
+    color:#4c4b40;
+    font-size: 40px;
+    margin-bottom: 16px;
+    width: 100%;
+    margin-top: 43px;
+}
+.film_roll_pager{
+    display:none;
+}
+.five .whiteLine{
+    background-color:#4c4b40;
+    margin:0 auto;
+    margin-top:1px;
+    margin-bottom:30px;
+}
+.five p {
+    font-family: 'Baufra W01 Bold';
+    color: #fff;
+    font-size: 27px;
+    margin-bottom: 47px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 28px;
+    line-height: 28px;
+}
+.sl1 {
+    background-image: url('../images/sl1.jpg');
+    width:728px;
+    height:389px;
+    margin-left:5px;
+    margin-right:5px;
+    
+}
+#film_roll{
+    position:relative;
+}
+#film_roll .zum{
+    display:block;
+    position:absolute;
+    bottom:131px;
+    width:153px;
+    height:40px;
+    background-color:#4c4b40;
+    border-radius: 20px;
+    font-family: 'Kyrial Display W01 Light';
+    font-size: 15px;
+    transition:all 0.5s;
+    color: #fff;
+    text-align: center;
+    padding-top: 11px;
+    bottom: 20px;
+    right: 20px;
+}
+#film_roll .zum:hover {
+    background-color:#6f6e65;
+}
+.film_roll_wrapper{
+    /*height: 389px!important;*/
+    height: 470px!important;
+}
+
+#film_roll .film_roll_prev,
+ #film_roll .film_roll_next{
+    top: inherit!important;
+    bottom: 9px!important;
+    background-color:#fff;
+    background-repeat:no-repeat!important;
+    border:1px solid #000;
+    background-position:center;
+    font-size:0;
+}
+#film_roll .film_roll_prev {
+    left: inherit !important;
+    right: calc(50% + 15px)!important;
+    background-image: url('../images/arrowLeft.jpg');
+}
+#film_roll .film_roll_next {
+    right: inherit !important;
+    left: calc(50% + 15px) !important;
+    background-image: url('../images/arrowRight.jpg');
+}
+#film_roll .film_roll_next::before{
+    background-image:none!important;
+}
+/*end five*/
+/*six*/
+.six{
+    text-align:center;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+    .six .suchenBottom {
+        border: 1px solid #000;
+        border-radius: 20px;
+        height: 40px;
+        width: 100%;
+        max-width: 280px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: 'Kyrial Display W01 Light';
+        text-align: center;
+        font-size: 15px;
+        text-transform: uppercase;
+        background-image: url('../images/lupa.jpg');
+        background-repeat: no-repeat;
+        background-position: 26px center;
+    }
+    .suchenBottom::-webkit-input-placeholder {color:#000;}
+    .suchenBottom::-moz-placeholder          {color:#000;}/* Firefox 19+ */
+    .suchenBottom:-moz-placeholder           {color:#000;}/* Firefox 18- */
+    .suchenBottom:-ms-input-placeholder      {color:#000;}
+/*end six*/
+
+/*seven*/
+
+.myPopup{
+    display:none;
+    position:absolute;
+    top:-99px;
+    right:0;
+    width:250px;
+    height:100px;
+    border:1px solid #37332e;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    padding:25px;
+    font-family: 'Kyrial Display W01 Light';
+    font-size:15px;
+    line-height:20px;
+    opacity: 0;
+    transition:opacity 1s;
+}
+.blocksSeven{
+    position:relative;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4b40+0,37332e+100 */
+background: #4c4b40; /* Old browsers */
+background: -moz-linear-gradient(left,  #4c4b40 0%, #37332e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #4c4b40 0%,#37332e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #4c4b40 0%,#37332e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4b40', endColorstr='#37332e',GradientType=1 ); /* IE6-9 */
+padding-left: 11px;
+}
+.blockSeven{
+    float:left;
+    font-size: 13.4px;
+    padding:20px;
+    padding-left: 30px;
+    color:#fff;
+    font-family: 'Kyrial Display W01 Light';
+    background-repeat:no-repeat;
+    background-position:0 center;
+    padding-left:20px;
+
+}
+.blockSevenMobile span,
+.linkGroupMobile{
+    display:none;
+}
+.bott_phoneIcon {
+    background-image: url('../images/bott_phoneIcon.jpg');
+    padding-left:26px;
+    margin-left: 55px;
+    margin-right: 18px;
+}
+.bott_mileIcon {
+    background-image: url('../images/bott_mileIcon.jpg');
+    padding-left: 30px;
+}
+.bott_addresIcon {
+    background-image: url('../images/bott_addresIcon.jpg');
+    padding-left: 24px;
+    margin-left: 29px;
+}
+.bott_caretUp {
+    background-image: url('../images/bott_caretUp.jpg');
+    background-position: right;
+    padding-right: 22px;
+    font-family: 'Baufra W01 Bold';
+    font-size:14px;
+    cursor:pointer;
+    float: right;
+    margin-right: 38px;
+}
+.bott_caretUp:hover{
+    opacity:0.5;
+}
+/*end seven*/
+/*--------------------end-Index-----------------------*/
+.one .container,
+.two .container,
+.three .container,
+.four .container,
+.five .container,
+.six .container,
+.seven .container{
+    max-width:1180px;
+}
+
+/*fixMenu*/
+.fixMenu{
+    width:80px;
+    background-color:#fff;
+    position:absolute;
+    left:-50px;
+    top:0;
+    padding-top:32px;
+    transition:all 1s;
+    z-index:100;
+}
+#history .fixMenu{
+    left: 4px;
+}
+#history .seven{
+    background: linear-gradient(to right, #4c4b40 0%,#37332e 100%);
+}
+#history .blocksSeven{
+    background:none;
+}
+.menuIcon{
+    text-align:center;
+}
+.menuLogo {
+    margin-bottom: 152px;
+}
+.menuIcon2{
+    margin-top: 65px;
+    margin-bottom: 62px;
+}
+.menuIcon4{
+    margin-top: 61px;
+    margin-bottom: 62px;
+}
+.menuIcon5{
+    margin-bottom: 143px;
+}
+/*end fixMenu*/
+.twoBlockPMob,
+.partnerLeftMob,
+.searchMob{
+    display:none;
+}
+.partnerLeftRes{
+    color:#fff!important;
+}
+.three .searchMob{
+    display:none;
+}
